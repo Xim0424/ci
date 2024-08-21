@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Grey+Qo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Grey+Qo&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Concert+One&family=DM+Serif+Text:ital@0;1&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Foundation:wght@400..700&family=Grey+Qo&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(34, 33, 32, 0.74);
+    width: 100%;
+}
+
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row
+}
+header ul li{
+    margin: 10px;
+    font-family: "Merriweather", serif;
+    font-size: medium;
+
+}
+body{
+    background-image: url(ICA/fondo\ 3.jpg);
+}
+img{
+    width: 150px;
+}
+
+p{
+    font-size: 20px;
+    color: rgb(24, 23, 23);
+}
+
+.Presentación{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Presentación img{
+    width: max-content;
+}
+.Presentación h1{
+    font-size: 40px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    color: rgb(203, 223, 24);
+    padding: 25px;
+}
+.Presentación p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(206, 207, 151, 0.603);
+    text-align: center;
+    padding: 50px;
+    
+    
+    
+}
+#Tipos{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+#Tipos{
+    padding: 10px;
+    margin: 10px;
+}
+h2{    
+    font-size: 40px;
+    color: rgb(203, 223, 24);
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-align: center;
+
+}
+.tipos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: rgba(222, 184, 135, 0.589);
+}
+.caja{
+    width: 50%;
+    height:50%;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.caja img{
+    border-radius: 50%;
+    width: max-content;
+    
+}
+.caja p{
+    font-size: 20px;
+    text-align: center;
+}
+#Principios{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Principios iframe{
+    padding: 15px;
+    margin: 15px;
+}
+h4{
+    font-size: 40px;
+    color: rgb(203, 223, 24);
+    font-family: "Edu NSW ACT Foundation", cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.principios{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 10px;
+    padding: 25px;
+    background-color: rgba(206, 207, 151, 0.603);
+    color: rgb(19, 18, 18)
+    
+}
+.principios h5{
+    font-size: 25px;
+    font-family: "Roboto", sans-serif;
+    color: rgb(145, 9, 9);
+    text-align: left;
+    
+}
+#Tareas iframe{
+    padding: 50px;
+    margin: 50px;
+}
+h6{
+    font-size: 40px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    text-align: center;
+    color: rgb(203, 223, 24);
+    
+     
+}
+.tareas{
+    font-size: 20px;
+    background-color: rgba(222, 184, 135, 0.589);
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 25px;
+
+}
+#Diferencias iframe{
+    padding: auto;
+    margin: 50px;
+}
+.pregunta h7{
+    font-size: 40px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    padding: 50px;
+    text-align: center;
+    color: rgb(203, 223, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+.pregunta p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 50px;
+    text-align: justify;
+    background-color: rgba(206, 207, 151, 0.603);
+    margin: 10px 0 10px 0;
+    color: rgb(19, 18, 18)
+}
+#Campo Laboral iframe{
+    padding: 50px;
+    margin-left: 10px;
+
+}
+h8{
+    font-size: 40px;
+    font-family: "Edu NSW ACT Foundation", cursive;
+    padding: 50px;
+    text-align: center;
+    color: rgb(203, 223, 24);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.trabajo{
+    font-size: 20px;
+    padding: 15px;
+    background-color: rgba(222, 184, 135, 0.589);
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(19, 18, 18)
+}
+.vide iframe{
+    padding: 100px;
+    
+}
+footer p{
+    font-size: 20px;
+    background-color: rgba(34, 33, 32, 0.74);
+    font-family: "Dancing Script", cursive;
+    color: rgb(255, 238, 3);
+    padding: 25px;
+    align-items: center;
+    width: 100%;
+    margin:50%
+}
